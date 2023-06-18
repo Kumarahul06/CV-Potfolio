@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' , sans-serif;
+}
+body{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+
+.container .left-side{
+
+position: relative;
+background: #71a3ba;
+padding: 40px;
+}
+
+.container .right-side{
+
+    position: relative;
+    background: #fff ;
+    padding: 40px;
+    }
+
+
+    .main{
+        height: 1150px;
+        width: 1000px;
+        background-color: white;
+        box-shadow: 5px 7px 15px 5px #b9b9b6;
+        margin: 20px auto;
+    }
+    .top-section{
+        background-color: #151b29;
+        text-align: center;
+        padding: 20px;
+    }
+    .profile{
+        width: 150px;
+        border-radius: 50%;
+    }
+    .r1{
+        color: white;
+        font-size: 40px;
+        font-weight: bold;
+        margin: 0px;
+        margin-top: 10px;
+    }
+    .r1 span{
+        font-weight: 100;
+        color: #c7c7c7;
+    }
+    
+    .r2{
+        font-size: 20px;
+        color:  #c7c7c7;
+    
+    }
+
+    .about{
+        margin-bottom: 50px;
+        
+    }
+    .about:last-child{
+        margin-bottom: 0;
+    }
+
+    .title2{
+        color: #d2e9f4;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-bottom: 10px;
+
+    }
+    p{
+
+        color: #f5efef;
+    }
+
+    .about .box{
+        display: flex;
+        flex-direction: row;
+        margin: 20px 0;
+    }
+
+    .about .box .year-company{
+        min-width: 150px;
+    }
+
+    .about .box .year-company h5{
+        text-transform: uppercase;
+        color: #4e595f;
+        font-weight: 600;
+    }
+
+    .about .box .text h4{
+        text-transform: uppercase;
+        color: #2a7da2;
+        font-size: 16px;
+    }
+
+    .skills .box{
+        position: relative;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 150px 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .skills .box h4{
+        text-transform: uppercase;
+        color: #0f0f10;
+        font-weight: 500;
+    }
+
+    .skills .box .percent{
+        position: relative;
+        width: 100%;
+        height: 10px;
+        background: #f0f0f0;
+    }
+
+    .skills .box .percent div{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        background: #03a9f4;
+    }
