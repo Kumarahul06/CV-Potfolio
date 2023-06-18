@@ -81,15 +81,17 @@ padding: 40px;
     }
 
     .title2{
-        color: #d2e9f4;
+        color: #161617;
         text-transform: uppercase;
         letter-spacing: 1px;
         margin-bottom: 10px;
 
     }
+
+   
     p{
 
-        color: #f5efef;
+        color: #0f0c0c;
     }
 
     .about .box{
@@ -104,13 +106,13 @@ padding: 40px;
 
     .about .box .year-company h5{
         text-transform: uppercase;
-        color: #4e595f;
+        color: #151718;
         font-weight: 600;
     }
 
     .about .box .text h4{
         text-transform: uppercase;
-        color: #2a7da2;
+        color: #4ae1e1;
         font-size: 16px;
     }
 
@@ -133,7 +135,7 @@ padding: 40px;
         position: relative;
         width: 100%;
         height: 10px;
-        background: #f0f0f0;
+        background: #f9f4f4;
     }
 
     .skills .box .percent div{
